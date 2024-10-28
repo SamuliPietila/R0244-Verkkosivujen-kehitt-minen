@@ -10,7 +10,7 @@ body {
     padding: 10px;
     font-size: 24px;
 }
-.navbar {
+.navbar  {
     background-color: #333;
     overflow: hidden;
     text-align: center;
@@ -43,7 +43,7 @@ body {
 }
 .content {
     width: 80%;
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 20px;
 }
 .footer {
