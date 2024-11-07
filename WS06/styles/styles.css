@@ -1,17 +1,18 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-
+    height: fit-content;
+    box-sizing: border-box;
 }
 header {
-    background-color: black;
+    background-color: rgb(10, 15, 26);
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 24px;
 }
 .navbar  {
-    background-color: #333;
+    background-color: #313131;
     overflow: hidden;
     text-align: center;
 }
@@ -24,12 +25,24 @@ header {
 .navbar a:hover {
     background-color: #555;
 }
+a:visited {
+    color: #aebece;
+  }
+  a:focus {
+    color: #ff0000;
+  }
+  a:hover {
+    color: #0099cc;
+  }
+  a:active {
+    color: #ff0000;
+  }
 .vertical-nav  {
     width: 200px;
     background-color: #f4f4f4;
     float: left;
     padding-top: 10px;
-    height: 50vh;
+    height: 75vh;
 }
 .vertical-nav a {
     display: block;
@@ -42,14 +55,14 @@ header {
     background-color: #ddd;
 }
 .content {
-    width: 80%;
-    margin-left: 250px;
+    width: 60%;
+    margin-left: 500px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 footer {
-    background-color: black;
-    color: white;
+    background-color:rgb(10,15,26);
+    color: #0099cc;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -64,3 +77,15 @@ footer {
     flex: 1;
     text-align: center;
   }
+#kuva1 { 
+    width: 200px; height: 200px;
+    display: block;
+    
+    
+}
+figure {
+    position: fixed;
+    top: 230px;
+    text-align: center;
+
+}
