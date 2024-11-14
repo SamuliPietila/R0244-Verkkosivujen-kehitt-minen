@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #b53e9d;
+}
+
+.row {
+   background-color: black;
+    color: white;
+   
+}
