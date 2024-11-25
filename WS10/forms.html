@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Sinun ikioma Form</h2>
+        <!-- Add your form here -->
+         
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" rows="10" cols="30"></textarea><br><br>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="finland">Finland</option>
+                <option value="sweden">Sweden</option>
+                <option value="norway">Norway</option>
+                <option value="denmark">Denmark</option>
+            </select><br><br>
+
+            
+            <input type="submit" value="Submit">
+
+          </form>
+
+          <h2>Task 2</h2>
+          <p>Create a login form. The form should include:</p>
+          <ul>
+              <li>Input fields: Username, Password</li>
+              <li>A remember me checkbox</li>
+              <li>A submit button</li>
+          </ul>
+          <h5>Sinun ikioma Login Form</h5>
+          <!-- Add your login form here -->
+  
+
+            <form action="/action_page.php">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="remember"> Remember me</label> <input type="checkbox" id="remember" name="remember"><br><br>
+                <input type="submit" value="Submit">
+                </form>
+          <h2>Task 3</h2>
+          <p>Create a feedback form. The form should include:</p>
+          <ul>
+              <li>Input fields: Name, Email</li>
+              <li>Radio buttons for rating (1-5)</li>
+              <li>A textarea for detailed feedback</li>
+              <li>A submit button</li>
+          </ul>
+          <h5>Sinun ikioma Feedback Form</h5>
+          <!-- Add your feedback form here -->
+  
+            <form action="/action_page.php">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="rating">Rating:</label><br>
+                <input type="radio" id="rating" name="rating" value="1">1
+                <input type="radio" id="rating" name="rating" value="2">2
+                <input type="radio" id="rating" name="rating" value="3">3
+                <input type="radio" id="rating" name="rating" value="4">4
+                <input type="radio" id="rating" name="rating" value="5">5<br><br>
+                <label for="feedback">Feedback:</label><br>
+                <textarea name="feedback" id="feedback" rows="10" cols="30"></textarea><br><br>
+                <input type="submit" value="Submit">
+                </form>
+  
+          <h2>Task 4</h2>
+          <p>Create a multi-step form. The form should include:</p>
+          <ul>
+              <li>Step 1: Personal Information (First Name, Last Name, Email)</li>
+              <li>Step 2: Address Information (Street, City, State, Zip Code)</li>
+              <li>Step 3: Account Information (Username, Password, Confirm Password)</li>
+              <li>Navigation buttons to move between steps (Next, Previous)</li>
+              <li>A final submit button on the last step</li>
+          </ul>
+          <h5>Sinun ikioma Multi-step Form</h5>
+          <!-- Add your multi-step form here -->
+  
+          
+          <div id="nav">
+              <a href="./index.html">Mene Tauluun</a>
+          </div>
+      </div>
+  
+  </body>
+  
+  </html>
