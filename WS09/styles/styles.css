@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0c0c0c;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    padding-left : 60px;
+}
+.navbar-nav {
+    padding: 0px;
+}
+a:hover {
+    color: #ff0000;
+}
+--#{$prefix}navbar-hover-color: #{$navbar-light-hover-color};
