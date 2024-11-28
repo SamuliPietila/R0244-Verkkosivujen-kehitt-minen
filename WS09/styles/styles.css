@@ -15,4 +15,30 @@ body {
 a:hover {
     color: #ff0000;
 }
---#{$prefix}navbar-hover-color: #{$navbar-light-hover-color};
+a:link {
+    color: #ffffff;
+}
+
+.img-fluid {
+    object-fit: cover;
+    min-height: 60vh;
+    position: fixed;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  position: center;
+width: 60%;
+height: 60%;
+margin-left: 20%;
+margin-right: 20%;
+border-radius: 30px;
+
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+.image {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+}
