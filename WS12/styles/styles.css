@@ -5,13 +5,17 @@ body {
     background-color: #0c0c0c;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 .navbar-brand {
     padding-left : 60px;
 }
 .navbar-nav {
     padding: 0px;
     font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 100px;
 }
 
 
@@ -26,7 +30,23 @@ height: 40%;
 margin-left: 30%;
 margin-right: 30%;
 border-radius: 10px;
+border: 1px solid #8a4505;
+border-radius: 10px;
+box-shadow: 5px 5px 5px #000000;
+}
 
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #8a4505;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000000;
 }
 
 .text-below {
@@ -37,6 +57,7 @@ border-radius: 10px;
     text-shadow: 2px 2px 4px #000000;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 100px;
 }
 .container {
     width: 40%;
@@ -69,14 +90,24 @@ border-radius: 10px;
 }
 #kuvatoimi {
  
- 
  width: 40%;
     height: 40%;
 
-
+}
+.card {
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #8a4505;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #000000;
 }
 
-
+.KUMMITUS {
+    text-align: center;
+ padding: 40px;
+}
 
 
 @keyframes move {
