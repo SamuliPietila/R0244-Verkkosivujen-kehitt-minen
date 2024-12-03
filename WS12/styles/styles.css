@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -15,7 +20,7 @@ body {
     padding: 0px;
     font-size: 20px;
     padding-bottom: 10px;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 
@@ -24,7 +29,6 @@ body {
     position: relative;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-  position: center;
 width: 40%;
 height: 40%;
 margin-left: 30%;
@@ -107,6 +111,7 @@ footer {
 .features-card img {
     max-width: 250px;
     height: auto;
+    max-height: 150px;
     margin-bottom: 1rem;
     object-fit: cover; /* Ensure the image covers the entire height */
 }
@@ -128,13 +133,14 @@ footer {
 }
 
 .features-card h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .features-card p {
     margin-bottom: 1rem;
-    color: #555;
+    color: white;
 }
 
 .features-card a {
@@ -168,6 +174,11 @@ footer {
     position: relative;
     width: 100%; /* Adjust width as needed */
     max-width: 900px; /* Adjust max-width as needed */
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #8a4505;
+    
+    box-shadow: 5px 5px 5px #000000;
 }
 
 
@@ -201,7 +212,7 @@ footer {
     backface-visibility: hidden;
     position: absolute;
     animation: move;
-    animation-duration: 45;
+    animation-duration: 45s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
