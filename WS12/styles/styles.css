@@ -581,6 +581,67 @@ footer {
     overflow: hidden;
     box-shadow: 5px 5px 5px #000000;
 }
+.text-container {
+    padding-left: 20px;
+    width: 60%; /* Adjust width as needed */
+}
+
+.box-header {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+    width: 40%; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features-card img {
+    max-width: 250px;
+    height: auto;
+    max-height: 150px;
+    margin-bottom: 1rem;
+    object-fit: cover; /* Ensure the image covers the entire height */
+}
+
+  
+ 
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: white;
+    border: 1px solid #8a4505;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #000000;
+}
+  
+
+
+.text-container h3 {
+    margin-top: 0;
+}
+  
+.text-container p {
+    margin-bottom: 10px;
+}
+
+.KUMMITUS {
+    text-align: center;
+ padding: 40px;
+}
   
 
 
@@ -606,77 +667,26 @@ footer {
   
     .features-card img {
       width: 100%;
+      max-width: none;
     }
   
     .text-container {
       width: 100%;
+      height: auto;
+      max-width: none;
+      padding-left: 0%;
+      padding-right: 0%;
+    flex: 1;
+    }
+    .features-card .align-left {
+        margin-right: 0%;
+    }
+    .box-header {
+        width: 100%;
     }
 }
 
-.features-card img {
-    max-width: 250px;
-    height: auto;
-    max-height: 150px;
-    margin-bottom: 1rem;
-    object-fit: cover; /* Ensure the image covers the entire height */
-}
 
-  
- 
-
-.image-container {
-    position: relative;
-    overflow: hidden;
-}
-.image {
-    display: block;
-    max-width: 100%;
-    position: absolute;
-}
-
-#kuvatoimi {
- 
-    width: 40%;
-       height: 40%;
-   
-   }
-
-.card {
-    background-color: #1c1c1c;
-    color: white;
-    border: 1px solid #8a4505;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #000000;
-}
-  
-.text-container {
-    padding-left: 20px;
-    width: 60%; /* Adjust width as needed */
-}
-
-.text-container h3 {
-    margin-top: 0;
-}
-  
-.text-container p {
-    margin-bottom: 10px;
-}
-.box-header {
-    background-color: #1c1c1c;
-    color: white;
-    padding: 20px;
-    width: 40%; /* Adjust width as needed */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.KUMMITUS {
-    text-align: center;
- padding: 40px;
-}
   
   @keyframes move {
     100% {
